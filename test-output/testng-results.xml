@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="177273" started-at="2019-02-09T06:16:44Z" finished-at="2019-02-09T06:19:42Z">
+    <groups>
+      <group name="College Profile">
+        <method signature="Loginpopup.loginAskbtn()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="loginAskbtn" class="com.loginpopup.Loginpopup"/>
+        <method signature="Loginpopup.loginContactbtn()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="loginContactbtn" class="com.loginpopup.Loginpopup"/>
+        <method signature="Loginpopup.loginWriteReviewbtn()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="loginWriteReviewbtn" class="com.loginpopup.Loginpopup"/>
+        <method signature="Loginpopup.logindownBrochurbtn()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="logindownBrochurbtn" class="com.loginpopup.Loginpopup"/>
+        <method signature="Collegeprofile.collegeProfileCard()[pri:0, instance:com.collegeprofile.Collegeprofile@3dd3bcd]" name="collegeProfileCard" class="com.collegeprofile.Collegeprofile"/>
+        <method signature="Collegeprofile.collegeviewPopUp()[pri:0, instance:com.collegeprofile.Collegeprofile@3dd3bcd]" name="collegeviewPopUp" class="com.collegeprofile.Collegeprofile"/>
+        <method signature="Collegeprofile.downloadBrochure()[pri:0, instance:com.collegeprofile.Collegeprofile@3dd3bcd]" name="downloadBrochure" class="com.collegeprofile.Collegeprofile"/>
+      </group> <!-- College Profile -->
+      <group name="Sample Paper">
+        <method signature="Loginpopup.samplePaperLoingPupUp()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="samplePaperLoingPupUp" class="com.loginpopup.Loginpopup"/>
+      </group> <!-- Sample Paper -->
+    </groups>
+    <test name="HomePage Test" duration-ms="19682" started-at="2019-02-09T06:16:44Z" finished-at="2019-02-09T06:17:04Z">
+      <class name="com.homepage.testhomepage">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.homepage.testhomepage@5f2050f6]" name="invokeBrowser" is-config="true" duration-ms="5504" started-at="2019-02-09T06:16:45Z" finished-at="2019-02-09T06:16:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="Logo()[pri:1, instance:com.homepage.testhomepage@5f2050f6]" name="Logo" duration-ms="4696" started-at="2019-02-09T06:16:50Z" description="LOGO Verify" finished-at="2019-02-09T06:16:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logo -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.homepage.testhomepage@5f2050f6]" name="closeBrowser" is-config="true" duration-ms="144" started-at="2019-02-09T06:16:55Z" finished-at="2019-02-09T06:16:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="LogINPopUp()[pri:2, instance:com.homepage.testhomepage@5f2050f6]" name="LogINPopUp" duration-ms="9176" started-at="2019-02-09T06:16:55Z" description="LogIN PopUP Verify" finished-at="2019-02-09T06:17:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogINPopUp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.homepage.testhomepage@5f2050f6]" name="closeBrowser" is-config="true" duration-ms="143" started-at="2019-02-09T06:17:04Z" finished-at="2019-02-09T06:17:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.homepage.testhomepage -->
+    </test> <!-- HomePage Test -->
+    <test name="Social Media Test" duration-ms="67433" started-at="2019-02-09T06:17:04Z" finished-at="2019-02-09T06:18:12Z">
+      <class name="com.socialmedia.social_media">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.socialmedia.social_media@34b7bfc0]" name="invokeBrowser" is-config="true" duration-ms="1373" started-at="2019-02-09T06:17:04Z" finished-at="2019-02-09T06:17:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="verifyTitle()[pri:1, instance:com.socialmedia.social_media@34b7bfc0]" name="verifyTitle" duration-ms="34838" started-at="2019-02-09T06:17:06Z" description="Verify Social Media Links and Titles on Home Page" finished-at="2019-02-09T06:17:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.socialmedia.social_media@34b7bfc0]" name="closeBrowser" is-config="true" duration-ms="145" started-at="2019-02-09T06:17:40Z" finished-at="2019-02-09T06:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="contactUsPage()[pri:2, instance:com.socialmedia.social_media@34b7bfc0]" name="contactUsPage" duration-ms="30996" started-at="2019-02-09T06:17:41Z" description="Verify Social Media Links and Titles on ContactUs Page" finished-at="2019-02-09T06:18:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactUsPage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.socialmedia.social_media@34b7bfc0]" name="closeBrowser" is-config="true" duration-ms="79" started-at="2019-02-09T06:18:12Z" finished-at="2019-02-09T06:18:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.socialmedia.social_media -->
+    </test> <!-- Social Media Test -->
+    <test name="Search Page Test" duration-ms="21852" started-at="2019-02-09T06:18:12Z" finished-at="2019-02-09T06:18:34Z">
+      <class name="com.searchpage.Searchpage">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.searchpage.Searchpage@5a61f5df]" name="invokeBrowser" is-config="true" duration-ms="6005" started-at="2019-02-09T06:18:12Z" finished-at="2019-02-09T06:18:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="Collegecard()[pri:0, instance:com.searchpage.Searchpage@5a61f5df]" name="Collegecard" duration-ms="4785" started-at="2019-02-09T06:18:18Z" description="College Card Verify" finished-at="2019-02-09T06:18:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Collegecard -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.searchpage.Searchpage@5a61f5df]" name="closeBrowser" is-config="true" duration-ms="139" started-at="2019-02-09T06:18:22Z" finished-at="2019-02-09T06:18:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.searchpage.Searchpage@5a61f5df]" name="invokeBrowser" is-config="true" duration-ms="5683" started-at="2019-02-09T06:18:23Z" finished-at="2019-02-09T06:18:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="Collegecardviewmore()[pri:0, instance:com.searchpage.Searchpage@5a61f5df]" name="Collegecardviewmore" duration-ms="5108" started-at="2019-02-09T06:18:28Z" description="College Card view more button Verify" finished-at="2019-02-09T06:18:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Collegecardviewmore -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.searchpage.Searchpage@5a61f5df]" name="closeBrowser" is-config="true" duration-ms="129" started-at="2019-02-09T06:18:33Z" finished-at="2019-02-09T06:18:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.searchpage.Searchpage -->
+    </test> <!-- Search Page Test -->
+    <test name="LogIN PopUpPage Test" duration-ms="40056" started-at="2019-02-09T06:18:34Z" finished-at="2019-02-09T06:19:14Z">
+      <class name="com.loginpopup.Loginpopup">
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="invokeBrowser" is-config="true" duration-ms="1121" started-at="2019-02-09T06:18:34Z" finished-at="2019-02-09T06:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="loginAskbtn()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="loginAskbtn" duration-ms="6502" started-at="2019-02-09T06:18:35Z" description="Verify Ask Button" finished-at="2019-02-09T06:18:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAskbtn -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="closeBrowser" is-config="true" duration-ms="162" started-at="2019-02-09T06:18:41Z" finished-at="2019-02-09T06:18:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="invokeBrowser" is-config="true" duration-ms="900" started-at="2019-02-09T06:18:41Z" finished-at="2019-02-09T06:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="loginContactbtn()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="loginContactbtn" duration-ms="7067" started-at="2019-02-09T06:18:42Z" description="Verify Contact Button" finished-at="2019-02-09T06:18:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginContactbtn -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="closeBrowser" is-config="true" duration-ms="121" started-at="2019-02-09T06:18:49Z" finished-at="2019-02-09T06:18:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="invokeBrowser" is-config="true" duration-ms="814" started-at="2019-02-09T06:18:49Z" finished-at="2019-02-09T06:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="loginHomePage()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="loginHomePage" duration-ms="4308" started-at="2019-02-09T06:18:50Z" description="Verify Login PopUp ON HomePage" finished-at="2019-02-09T06:18:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginHomePage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="closeBrowser" is-config="true" duration-ms="112" started-at="2019-02-09T06:18:55Z" finished-at="2019-02-09T06:18:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="invokeBrowser" is-config="true" duration-ms="1016" started-at="2019-02-09T06:18:55Z" finished-at="2019-02-09T06:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="loginWriteReviewbtn()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="loginWriteReviewbtn" duration-ms="6540" started-at="2019-02-09T06:18:56Z" description="Verify Write a Review Button" finished-at="2019-02-09T06:19:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWriteReviewbtn -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="closeBrowser" is-config="true" duration-ms="112" started-at="2019-02-09T06:19:02Z" finished-at="2019-02-09T06:19:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="invokeBrowser" is-config="true" duration-ms="1113" started-at="2019-02-09T06:19:02Z" finished-at="2019-02-09T06:19:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="logindownBrochurbtn()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="logindownBrochurbtn" duration-ms="6665" started-at="2019-02-09T06:19:03Z" description="Verify Download Brochure Button" finished-at="2019-02-09T06:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logindownBrochurbtn -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="closeBrowser" is-config="true" duration-ms="108" started-at="2019-02-09T06:19:10Z" finished-at="2019-02-09T06:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="invokeBrowser()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="invokeBrowser" is-config="true" duration-ms="880" started-at="2019-02-09T06:19:10Z" finished-at="2019-02-09T06:19:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="samplePaperLoingPupUp()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="samplePaperLoingPupUp" duration-ms="2373" started-at="2019-02-09T06:19:11Z" description="Verify Sample Paper pdf download login PopUp" finished-at="2019-02-09T06:19:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- samplePaperLoingPupUp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.loginpopup.Loginpopup@234bef66]" name="closeBrowser" is-config="true" duration-ms="129" started-at="2019-02-09T06:19:13Z" finished-at="2019-02-09T06:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.loginpopup.Loginpopup -->
+    </test> <!-- LogIN PopUpPage Test -->
+    <test name="College Profile Test" duration-ms="28176" started-at="2019-02-09T06:19:14Z" finished-at="2019-02-09T06:19:42Z">
+      <class name="com.collegeprofile.Collegeprofile">
+        <test-method status="PASS" signature="collegeProfileCard()[pri:0, instance:com.collegeprofile.Collegeprofile@3dd3bcd]" name="collegeProfileCard" duration-ms="5628" started-at="2019-02-09T06:19:14Z" description="College Profile Card PopUp Cross Button Verify" finished-at="2019-02-09T06:19:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collegeProfileCard -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.collegeprofile.Collegeprofile@3dd3bcd]" name="closeBrowser" is-config="true" duration-ms="113" started-at="2019-02-09T06:19:19Z" finished-at="2019-02-09T06:19:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="collegeviewPopUp()[pri:0, instance:com.collegeprofile.Collegeprofile@3dd3bcd]" name="collegeviewPopUp" duration-ms="5595" started-at="2019-02-09T06:19:19Z" description="College Profile Card PopUp Close Button Verify" finished-at="2019-02-09T06:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collegeviewPopUp -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.collegeprofile.Collegeprofile@3dd3bcd]" name="closeBrowser" is-config="true" duration-ms="108" started-at="2019-02-09T06:19:25Z" finished-at="2019-02-09T06:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="downloadBrochure()[pri:0, instance:com.collegeprofile.Collegeprofile@3dd3bcd]" name="downloadBrochure" duration-ms="16544" started-at="2019-02-09T06:19:25Z" description="Verify Download button and Brochure" finished-at="2019-02-09T06:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadBrochure -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.collegeprofile.Collegeprofile@3dd3bcd]" name="closeBrowser" is-config="true" duration-ms="183" started-at="2019-02-09T06:19:42Z" finished-at="2019-02-09T06:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.collegeprofile.Collegeprofile -->
+    </test> <!-- College Profile Test -->
+  </suite> <!-- Suite1 -->
+</testng-results>

@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite1">
+              <span class="suite-name border-passed">Suite1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite1">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite1">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite1">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods passed suite-Suite1"> (hide)</a> <!-- hide-methods passed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods passed suite-Suite1"> (show)</a> <!-- show-methods passed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.searchpage.Searchpage" hash-for-method="Collegecard">Collegecard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.searchpage.Searchpage" hash-for-method="Collegecardviewmore">Collegecardviewmore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.homepage.testhomepage" hash-for-method="LogINPopUp">LogINPopUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.homepage.testhomepage" hash-for-method="Logo">Logo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.collegeprofile.Collegeprofile" hash-for-method="collegeProfileCard">collegeProfileCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.collegeprofile.Collegeprofile" hash-for-method="collegeviewPopUp">collegeviewPopUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.socialmedia.social_media" hash-for-method="contactUsPage">contactUsPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.collegeprofile.Collegeprofile" hash-for-method="downloadBrochure">downloadBrochure</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.loginpopup.Loginpopup" hash-for-method="loginAskbtn">loginAskbtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.loginpopup.Loginpopup" hash-for-method="loginContactbtn">loginContactbtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.loginpopup.Loginpopup" hash-for-method="loginHomePage">loginHomePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.loginpopup.Loginpopup" hash-for-method="loginWriteReviewbtn">loginWriteReviewbtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.loginpopup.Loginpopup" hash-for-method="logindownBrochurbtn">logindownBrochurbtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.loginpopup.Loginpopup" hash-for-method="samplePaperLoingPupUp">samplePaperLoingPupUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.socialmedia.social_media" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite1" class="panel Suite1">
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.homepage.testhomepage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LogINPopUp">
+                  </a> <!-- LogINPopUp -->
+                  <span class="method-name">LogINPopUp</span>
+                  <em>
+(LogIN PopUP Verify)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logo">
+                  </a> <!-- Logo -->
+                  <span class="method-name">Logo</span>
+                  <em>
+(LOGO Verify)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.socialmedia.social_media</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactUsPage">
+                  </a> <!-- contactUsPage -->
+                  <span class="method-name">contactUsPage</span>
+                  <em>
+(Verify Social Media Links and Titles on ContactUs Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                  <em>
+(Verify Social Media Links and Titles on Home Page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.collegeprofile.Collegeprofile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="collegeProfileCard">
+                  </a> <!-- collegeProfileCard -->
+                  <span class="method-name">collegeProfileCard</span>
+                  <em>
+(College Profile Card PopUp Cross Button Verify)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="collegeviewPopUp">
+                  </a> <!-- collegeviewPopUp -->
+                  <span class="method-name">collegeviewPopUp</span>
+                  <em>
+(College Profile Card PopUp Close Button Verify)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="downloadBrochure">
+                  </a> <!-- downloadBrochure -->
+                  <span class="method-name">downloadBrochure</span>
+                  <em>
+(Verify Download button and Brochure)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.loginpopup.Loginpopup</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginAskbtn">
+                  </a> <!-- loginAskbtn -->
+                  <span class="method-name">loginAskbtn</span>
+                  <em>
+(Verify Ask Button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginContactbtn">
+                  </a> <!-- loginContactbtn -->
+                  <span class="method-name">loginContactbtn</span>
+                  <em>
+(Verify Contact Button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginHomePage">
+                  </a> <!-- loginHomePage -->
+                  <span class="method-name">loginHomePage</span>
+                  <em>
+(Verify Login PopUp ON HomePage)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWriteReviewbtn">
+                  </a> <!-- loginWriteReviewbtn -->
+                  <span class="method-name">loginWriteReviewbtn</span>
+                  <em>
+(Verify Write a Review Button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logindownBrochurbtn">
+                  </a> <!-- logindownBrochurbtn -->
+                  <span class="method-name">logindownBrochurbtn</span>
+                  <em>
+(Verify Download Brochure Button)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="samplePaperLoingPupUp">
+                  </a> <!-- samplePaperLoingPupUp -->
+                  <span class="method-name">samplePaperLoingPupUp</span>
+                  <em>
+(Verify Sample Paper pdf download login PopUp)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.searchpage.Searchpage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Collegecard">
+                  </a> <!-- Collegecard -->
+                  <span class="method-name">Collegecard</span>
+                  <em>
+(College Card Verify)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Collegecardviewmore">
+                  </a> <!-- Collegecardviewmore -->
+                  <span class="method-name">Collegecardviewmore</span>
+                  <em>
+(College Card view more button Verify)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+        </div> <!-- panel Suite1 -->
+        <div panel-name="test-xml-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/sanjeev/IdeaProjects/cktest/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite1&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;HomePage Test&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.homepage&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.homepage.testhomepage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HomePage Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Social Media Test&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.socialmedia&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.socialmedia.social_media&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Social Media Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Search Page Test&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.searchpage&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.searchpage.Searchpage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search Page Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;LogIN PopUpPage Test&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.loginpopup&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.loginpopup.Loginpopup&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LogIN PopUpPage Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;College Profile Test&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.collegeprofile&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.collegeprofile.Collegeprofile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- College Profile Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">HomePage Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Social Media Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Search Page Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LogIN PopUpPage Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">College Profile Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">College Profile</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">collegeProfileCard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">collegeviewPopUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">downloadBrochure</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginAskbtn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginContactbtn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginWriteReviewbtn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">logindownBrochurbtn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Sample Paper</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">samplePaperLoingPupUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite1');
+function tableData_Suite1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyTitle')
+data.setCell(0, 2, 'com.socialmedia.social_media')
+data.setCell(0, 3, 34838);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'contactUsPage')
+data.setCell(1, 2, 'com.socialmedia.social_media')
+data.setCell(1, 3, 30996);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'downloadBrochure')
+data.setCell(2, 2, 'com.collegeprofile.Collegeprofile')
+data.setCell(2, 3, 16544);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LogINPopUp')
+data.setCell(3, 2, 'com.homepage.testhomepage')
+data.setCell(3, 3, 9176);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginContactbtn')
+data.setCell(4, 2, 'com.loginpopup.Loginpopup')
+data.setCell(4, 3, 7067);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'logindownBrochurbtn')
+data.setCell(5, 2, 'com.loginpopup.Loginpopup')
+data.setCell(5, 3, 6665);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginWriteReviewbtn')
+data.setCell(6, 2, 'com.loginpopup.Loginpopup')
+data.setCell(6, 3, 6540);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginAskbtn')
+data.setCell(7, 2, 'com.loginpopup.Loginpopup')
+data.setCell(7, 3, 6502);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'collegeProfileCard')
+data.setCell(8, 2, 'com.collegeprofile.Collegeprofile')
+data.setCell(8, 3, 5628);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'collegeviewPopUp')
+data.setCell(9, 2, 'com.collegeprofile.Collegeprofile')
+data.setCell(9, 3, 5595);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Collegecardviewmore')
+data.setCell(10, 2, 'com.searchpage.Searchpage')
+data.setCell(10, 3, 5108);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Collegecard')
+data.setCell(11, 2, 'com.searchpage.Searchpage')
+data.setCell(11, 3, 4785);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Logo')
+data.setCell(12, 2, 'com.homepage.testhomepage')
+data.setCell(12, 3, 4696);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginHomePage')
+data.setCell(13, 2, 'com.loginpopup.Loginpopup')
+data.setCell(13, 3, 4308);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'samplePaperLoingPupUp')
+data.setCell(14, 2, 'com.loginpopup.Loginpopup')
+data.setCell(14, 3, 2373);
+window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite1">
+              </div> <!-- times-div-Suite1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.homepage.testhomepage</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">invokeBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Logo</span>
+                <span class="method-start">5509 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">10207 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LogINPopUp</span>
+                <span class="method-start">10352 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">19530 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.socialmedia.social_media</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">invokeBrowser</span>
+                <span class="method-start">19736 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">21110 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">55948 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">contactUsPage</span>
+                <span class="method-start">56093 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">87089 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.searchpage.Searchpage</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">invokeBrowser</span>
+                <span class="method-start">87170 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Collegecard</span>
+                <span class="method-start">93175 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">97961 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">invokeBrowser</span>
+                <span class="method-start">98100 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Collegecardviewmore</span>
+                <span class="method-start">103783 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">108892 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.loginpopup.Loginpopup</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">invokeBrowser</span>
+                <span class="method-start">109024 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginAskbtn</span>
+                <span class="method-start">110145 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">116647 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">invokeBrowser</span>
+                <span class="method-start">116810 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginContactbtn</span>
+                <span class="method-start">117710 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">124778 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">invokeBrowser</span>
+                <span class="method-start">124899 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginHomePage</span>
+                <span class="method-start">125713 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">130021 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">invokeBrowser</span>
+                <span class="method-start">130134 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWriteReviewbtn</span>
+                <span class="method-start">131151 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">137691 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">invokeBrowser</span>
+                <span class="method-start">137804 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">logindownBrochurbtn</span>
+                <span class="method-start">138921 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">145586 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">invokeBrowser</span>
+                <span class="method-start">145694 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">samplePaperLoingPupUp</span>
+                <span class="method-start">146575 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">148949 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.collegeprofile.Collegeprofile</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">collegeProfileCard</span>
+                <span class="method-start">149090 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">154719 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">collegeviewPopUp</span>
+                <span class="method-start">154832 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">160428 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">downloadBrochure</span>
+                <span class="method-start">160536 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">177080 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
